@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    border-radius: 5px;
+}
+
+a:focus,
+a:hover {
+    box-shadow: 0 0 0 2px rgba(247, 248, 251, 1), 0 0 0 7px rgba(59, 153, 252, 0.25);
+    outline: none;
+    transition: box-shadow 250ms;
+}
+
+.page {
+    background-color: rgb(247, 248, 251);
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25rem;
+    zoom: 1;
+    padding: 0;
+    margin: 0;
+
+}
+
+.page__body {
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile {
+    box-sizing: border-box;
+
+    text-align: center;
+    border: 1px solid rgba(127, 130, 139, 0.25);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+
+    text-decoration: none;
+    max-width: 100%;
+    width: 300px;
+}
+
+.profile__thumb {
+    display: flex;
+}
+
+.profile__body {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-right: 1.25rem;
+}
+
+.profile__name {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    color: rgb(71, 73, 78);
+    font-size: 1.0rem;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.05rem;
+}
+
+.profile__desc,
+.profile__nick {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color: rgb(127, 130, 139);
+    font-size: 0.8rem;
+    margin: 0;
+    letter-spacing: 0.01rem;
+
+}
+
+.networks {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.networks--center {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.networks__item {
+    display: inline-block;
+}
+
+.networks__link {
+    padding-top: 1px;
+    height: 20px;
+    min-width: 20px;
+    margin: 10px;
+    display: inline-block;
+    align-content: center;
+    color: rgba(127, 130, 139, 0.25);
+    white-space: nowrap;
+}
+
+.networks__link:focus,
+.networks__link:hover {
+    color: rgba(127, 130, 139, 1);
+}

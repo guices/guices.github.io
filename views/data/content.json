@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "Florian Gudat": {
+      "name": {
+        "first": "Florian",
+        "last": "Gudat",
+        "nick": "guddii"
+      },
+      "position": "Front-End Web Developer/Engineer",
+      "mail": "florian.gudat@guices.com",
+      "avatar": "https://www.gravatar.com/avatar/e3a30f12e2239a2a8c5a08deef9d150b",
+      "networks": [
+        {
+          "name": "Behance",
+          "link": "https://www.behance.net/guddii",
+          "icon": "fa-behance-square"
+        },
+        {
+          "name": "Github",
+          "link": "https://github.com/guddii",
+          "icon": "fa-github"
+        },
+        {
+          "name": "LinkedIn",
+          "link": "https://www.linkedin.com/in/guddii/",
+          "icon": "fa-linkedin-square"
+        }
+      ]
+    }
+  }
+}
