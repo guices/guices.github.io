@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= pkg.name %></title>
+    <title><%= request.profile %> | <%= pkg.name %></title>
     <% include ../partials/head.ejs %>
 </head>
 
@@ -13,6 +13,7 @@
 <main class="page__body">
 
     <% for(profile in content.profiles) { %>
+    <% if (profile === request.profile) { %>
     <a href="/profile/<%= encodeURI(profile) %>" class="profile">
         <div class="profile__thumb">
             <img src="https://www.gravatar.com/avatar/e3a30f12e2239a2a8c5a08deef9d150b?s=40">
@@ -29,11 +30,12 @@
     <ul class="networks">
         <% for(var j = 0; j < content.profiles[profile].networks.length; j++) { %>
         <li class="networks__item">
-            <a class="networks__link" target="_blank"  href="<%= content.profiles[profile].networks[j].link %>"><i
+            <a class="networks__link" target="_blank" href="<%= content.profiles[profile].networks[j].link %>"><i
                         class="fa <%= content.profiles[profile].networks[j].icon %>" aria-hidden="true"></i></a>
         </li>
         <% } %>
     </ul>
+    <% } %>
     <% } %>
     <% } %>
 
@@ -42,7 +44,7 @@
 <footer class="page__footer">
     <ul class="networks networks--center">
         <li class="networks__item">
-            <a class="networks__link" href="/"><i class="fa fa-home" aria-hidden="true"></i> Guices</a>
+            <a class="networks__link" href="/"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Zurück</a>
         </li>
     </ul>
 </footer>

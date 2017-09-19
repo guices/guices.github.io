@@ -1,9 +1,9 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "name": "Guices",
+  "version": "0.0.1",
+  "description": "Profile site",
   "engines": {
-    "node": "6.11.1"
+    "node": ">=6.0.0"
   },
   "main": "index.js",
   "scripts": {
@@ -18,14 +18,12 @@
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
-  },
+  "repository": "https://github.com/guddii/guices",
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Florian Gudat <florian.gudat@guices.com>"
 }
