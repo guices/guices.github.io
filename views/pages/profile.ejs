@@ -5,37 +5,17 @@
     <% include ../partials/head.ejs %>
 </head>
 
-<body class="page">
+<body class="page" itemscope itemtype="http://schema.org/Organization">
 
 <header class="page__header">
+    <h1 class="visible@print" itemprop="name"><%= request.profile %> | <%= pkg.name %></h1>
 </header>
 
 <main class="page__body">
 
     <% for(profile in content.profiles) { %>
     <% if (profile === request.profile) { %>
-    <a href="/profile/<%= encodeURI(profile) %>" class="profile">
-        <div class="profile__thumb">
-            <img src="https://www.gravatar.com/avatar/e3a30f12e2239a2a8c5a08deef9d150b?s=40">
-        </div>
-        <div class="profile__body">
-            <div class="profile__name"><%= content.profiles[profile].name.first %> <%= content.profiles[profile].name.last %>
-                <span
-                        class="profile__nick">(<%= content.profiles[profile].name.nick %>)</span></div>
-            <div class="profile__desc"><%= content.profiles[profile].position %> </div>
-        </div>
-    </a>
-
-    <% if (content.profiles[profile].hasOwnProperty('networks')) { %>
-    <ul class="networks">
-        <% for(var j = 0; j < content.profiles[profile].networks.length; j++) { %>
-        <li class="networks__item">
-            <a class="networks__link" target="_blank" href="<%= content.profiles[profile].networks[j].link %>"><i
-                        class="fa <%= content.profiles[profile].networks[j].icon %>" aria-hidden="true"></i></a>
-        </li>
-        <% } %>
-    </ul>
-    <% } %>
+    <% include ../partials/person.ejs %>
     <% } %>
     <% } %>
 
