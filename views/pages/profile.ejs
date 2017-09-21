@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title><%= request.profile %> | <%= pkg.name %></title>
     <% include ../partials/head.ejs %>
+    <title><%= request.profile %> | <%= pkg.name %></title>
+    <meta name="description" content="<%= pkg.description %>">
 </head>
 
 <body class="page" itemscope itemtype="http://schema.org/Organization">
