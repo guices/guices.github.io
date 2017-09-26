@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41434ba0-26ce-48e7-9f19-19adf3283ce8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/manifest.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tile.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/browserconfig.xml" afterPath="$PROJECT_DIR$/static/browserconfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/site.webmanifest" afterPath="$PROJECT_DIR$/static/site.webmanifest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/head.ejs" afterPath="$PROJECT_DIR$/views/partials/head.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -543,7 +511,7 @@
       <workItem from="1506352656754" duration="11011000" />
       <workItem from="1506427737711" duration="181000" />
       <workItem from="1506427978157" duration="1489000" />
-      <workItem from="1506429689665" duration="3749000" />
+      <workItem from="1506429689665" duration="3771000" />
     </task>
     <task id="LOCAL-00001" summary="Add splashpage">
       <created>1505844354607</created>
@@ -587,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506431097736</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Apply icons">
+      <created>1506435840544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1506435840544</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90939000" />
+    <option name="totallyTimeSpent" value="90961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +630,8 @@
     <MESSAGE value="Apply meta and micro data" />
     <MESSAGE value="Update JetBrains config" />
     <MESSAGE value="Spelling fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spelling fixes" />
+    <MESSAGE value="Apply icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apply icons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
