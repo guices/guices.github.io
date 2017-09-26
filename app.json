@@ -1,6 +1,6 @@
 {
   "name": "guices",
-  "description": "Profile site",
+  "description": "A Protfolio of Software Development.",
   "repository": "https://github.com/guddii/guices",
   "logo": "",
   "keywords": ["node", "express", "heroku"],

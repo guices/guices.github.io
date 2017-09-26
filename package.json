@@ -1,7 +1,7 @@
 {
   "name": "Guices",
-  "version": "0.0.1",
-  "description": "Profile site",
+  "version": "0.0.2",
+  "description": "A Protfolio of Software Development.",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -20,9 +20,9 @@
   },
   "repository": "https://github.com/guddii/guices",
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "software",
+    "development",
+    "portfolio"
   ],
   "license": "MIT",
   "author": "Florian Gudat <florian.gudat@guices.com>"
