@@ -1,7 +1,7 @@
 {
   "name": "Guices",
   "version": "0.0.2",
-  "description": "A Protfolio of Software Development.",
+  "description": "A Portfolio of Software Development.",
   "engines": {
     "node": ">=6.0.0"
   },
