@@ -1,9 +1,12 @@
 const express = require('express');
+const compression = require('compression');
 const app = express();
 
 app.set('port', (process.env.PORT || 5000));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
+
+app.use(compression());
 
 app.get('/', function (request, response) {
   response.render('pages/index', {
