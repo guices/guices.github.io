@@ -8,14 +8,14 @@
     <meta name="description" content="<%= pkg.description %>">
 </head>
 
-<body class="page" itemscope itemtype="http://schema.org/Organization">
+<body class="page">
 <% include ../partials/masthead.ejs %>
 
 <main class="page__body page__body--centered">
 
     <% for(profile in content.profiles) { %>
     <% if (profile === request.profile) { %>
-    <article class="page__article" itemprop="member" itemscope itemtype="http://schema.org/Person">
+    <article class="page__article" itemscope itemtype="http://schema.org/Person">
         <div class="content">
             <div class="content__body">
                 <section class="content__section content__section--centered@widescreen">
@@ -33,8 +33,8 @@
                                  src="<%= content.profiles[profile].avatar %>?s=64">
                         </div>
 
-                        <div style="text-transform: uppercase"
-                             itemprop="alternateName"><%= content.profiles[profile].name.nick %></div>
+                        <div style="text-transform: uppercase" itemprop="alternateName"><%= content.profiles[profile].name.nick %></div>
+                        <meta itemprop="memberOf" content="Guices">
 
                     </div>
                     <div class="content__column content__column--right">
