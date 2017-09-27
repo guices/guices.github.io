@@ -2,7 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>http://www.guices.com/profiles/Florian%20Gudat</loc>
+        <loc>http://www.guices.com/profiles</loc>
+    </url>
+    <url>
+        <loc>http://www.guices.com/profile/Florian%20Gudat</loc>
         <image:image>
             <image:loc>https://www.gravatar.com/avatar/e3a30f12e2239a2a8c5a08deef9d150b</image:loc>
             <image:caption>Florian Gudat</image:caption>

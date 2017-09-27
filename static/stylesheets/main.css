@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Oswald:700');
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-
 /**
  * @name Generics
  */
@@ -137,7 +136,6 @@
     }
 
 }
-
 
 /**
  * @name Visibility
@@ -349,7 +347,7 @@
     }
 
     .content__aside,
-    .content__footer{
+    .content__footer {
         opacity: 0.25;
     }
 
@@ -429,6 +427,37 @@
         width: 75%;
     }
 
+}
+
+/**
+ * @name Breadcrumb
+ */
+.breadcrumb {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: row-reverse;
+}
+
+.breadcrumb__item {
+    display: inline-block;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.breadcrumb__item::after {
+    padding-right: 5px;
+    content: "«";
+    display: inline-block;
+}
+
+.breadcrumb__referer {
+    padding: 5px;
+}
+
+.breadcrumb__item:first-child::after {
+    display: none;
 }
 
 /**
