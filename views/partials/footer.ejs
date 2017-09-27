@@ -1,6 +1,44 @@
 <div class="footer">
-        <% for(keyword in pkg.keywords) { %>
-        #<%= pkg.keywords[keyword] %>
+    <% if (!settings.home) { %>
+    <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem">
+            <a class="breadcrumb__referer" itemscope itemtype="http://schema.org/Thing" itemprop="item"
+               href="/">
+                <span class="breadcrumb__name" itemprop="name">Guices</span>
+            </a>
+            <meta itemprop="position" content="1"/>
+        </li>
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem">
+            <a class="breadcrumb__referer" itemscope itemtype="http://schema.org/Thing" itemprop="item"
+               href="/profiles">
+                <span class="breadcrumb__name" itemprop="name">Profile</span>
+            </a>
+            <meta itemprop="position" content="2"/>
+        </li>
+        <% if (request.profile) { %>
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem">
+            <a class="breadcrumb__referer" itemscope itemtype="http://schema.org/Thing" itemprop="item"
+               href="/profile/<%= encodeURI(request.profile) %>">
+                <span class="breadcrumb__name" itemprop="name"><%= request.profile %></span>
+            </a>
+            <meta itemprop="position" content="3"/>
+        </li>
         <% } %>
-        | <%= pkg.version %>
+    </ol>
+    <% } else { %>
+    <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem">
+            <a class="breadcrumb__referer" itemscope itemtype="http://schema.org/Thing" itemprop="item"
+               href="/">
+                <span class="breadcrumb__name" itemprop="name">Guices</span>
+            </a>
+            <meta itemprop="position" content="1"/>
+        </li>
+    </ol>
+    <% } %>
+    | <%= pkg.version %>
 </div>
