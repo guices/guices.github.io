@@ -1,0 +1,15 @@
+<header class="page__header">
+    <div class="masthead">
+        <div class="masthead__prepend">
+            <a href="/" style="color: #ffffff"><i class="fa fa-lg fa-terminal" aria-hidden="true"></i></a>
+        </div>
+        <div class="masthead__body">
+            <h1 class="visible@print" itemprop="name"><%= pkg.name %></h1>
+            Software Development by <a href="/profile/<%= encodeURI('Florian Gudat') %>">Florian Gudat</a>
+        </div>
+        <div class="masthead__append">
+            <a href="<%= pkg.repository %>"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</header>
+

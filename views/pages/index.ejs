@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title><%= pkg.name %></title>
     <% include ../partials/head.ejs %>
+    <title><%= pkg.name %> - Software development by Florian Gudat</title>
+    <meta name="description" content="<%= pkg.description %>">
 </head>
 
-<body class="page" itemscope itemtype="http://schema.org/Organization">
+<body class="page">
+<% include ../partials/masthead.ejs %>
 
-<header class="page__header">
-    <h1 class="visible@print" itemprop="name"><%= pkg.name %></h1>
-</header>
-
-<main class="page__body">
-
-    <% for(profile in content.profiles) { %>
-    <% include ../partials/person.ejs %>
-    <% } %>
-
+<main class="page__body page__body--centered">
+    <article class="page__article">
+        <div class="content">
+            <div class="content__body">
+                <section class="content__section content__section--centered">
+                    <div class="title">
+                        <h1 class="title__headline">
+                            <%= pkg.name %>
+                        </h1>
+                        <div name="claim">Software Development</div>
+                    </div>
+                </section>
+                <aside class="content__aside">
+                    <div class="vertical-text"><%= pkg.author %></div>
+                </aside>
+            </div>
+            <footer class="content__footer">
+                <% include ../partials/footer.ejs %>
+            </footer>
+        </div>
+    </article>
+    <aside class="page__aside">
+        <div class="vertical-text2"><%= pkg.description %></div>
+    </aside>
 </main>
-
-<footer class="page__footer">
-    <ul class="networks networks--center">
-        <li class="networks__item">
-            <a class="networks__link" href="/"><i class="fa fa-home" aria-hidden="true"></i> Guices</a>
-        </li>
-    </ul>
-</footer>
-
-<% include ../partials/footer.ejs %>
+<% include ../partials/scripts.ejs %>
 </body>
 </html>

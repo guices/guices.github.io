@@ -24,6 +24,89 @@
           "name": "LinkedIn",
           "link": "https://www.linkedin.com/in/guddii/",
           "icon": "fa-linkedin-square"
+        },
+        {
+          "name": "LastFM",
+          "link": "https://www.last.fm/user/Guddii",
+          "icon": "fa-lastfm-square"
+        },
+        {
+          "name": "Stack Overflow",
+          "link": "https://stackoverflow.com/story/guddii",
+          "icon": "fa-stack-overflow"
+        },
+        {
+          "name": "Stack Exchange",
+          "link": "https://stackexchange.com/users/11822142/guddii",
+          "icon": "fa-stack-exchange"
+        },
+        {
+          "name": "Google Plus",
+          "link": "https://plus.google.com/+FlorianGudat",
+          "icon": "fa-google-plus-square"
+        },
+        {
+          "name": "Spotify",
+          "link": "https://open.spotify.com/user/guddii",
+          "icon": "fa-spotify"
+        },
+        {
+          "name": "IMDb",
+          "link": "http://www.imdb.com/user/ur34009685/",
+          "icon": "fa-imdb"
+        },
+        {
+          "name": "Xing",
+          "link": "https://www.xing.com/profile/Florian_Gudat2",
+          "icon": "fa-xing-square"
+        },
+        {
+          "name": "Soundcloud",
+          "link": "https://soundcloud.com/guddii",
+          "icon": "fa-soundcloud"
+        },
+        {
+          "name": "YouTube",
+          "link": "https://www.youtube.com/user/floriangudat",
+          "icon": "fa-youtube"
+        },
+        {
+          "name": "Bitbucket",
+          "link": "https://bitbucket.org/fgudat/",
+          "icon": "fa-bitbucket"
+        },
+        {
+          "name": "Facebook",
+          "link": "http://facebook.com/fgudat",
+          "icon": "fa-facebook"
+        },
+        {
+          "name": "Twitter",
+          "link": "https://twitter.com/guddii",
+          "icon": "fa-twitter"
+        },
+        {
+          "name": "Etsy",
+          "link": "https://www.etsy.com/de/people/guddii",
+          "icon": "fa-etsy"
+        },
+        {
+          "name": "Tumblr",
+          "link": "http://guddii.tumblr.com",
+          "icon": "fa-tumblr"
+        },
+        {
+          "name": "Instagram",
+          "link": "https://www.instagram.com/fgudat/",
+          "icon": "fa-instagram"
+        },
+        {
+          "name": "Komoot",
+          "link": "https://www.komoot.de/user/110900875803"
+        },
+        {
+          "name": "Strava",
+          "link": "https://www.strava.com/athletes/4245568"
         }
       ]
     }
