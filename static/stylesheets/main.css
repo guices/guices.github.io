@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Oswald:700');
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+
 /**
  * @name Generics
  */
@@ -137,17 +138,7 @@
 
 }
 
-/**
- * @name Field
- */
 
-@media screen {
-
-    .field--group {
-        display: flex;
-        padding: 5px;
-    }
-}
 /**
  * @name Visibility
  */
@@ -162,6 +153,18 @@
         display: block;
     }
 
+}
+
+/**
+ * @name Field
+ */
+
+@media screen {
+
+    .field--group {
+        display: flex;
+        padding: 5px;
+    }
 }
 
 /**
