@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41434ba0-26ce-48e7-9f19-19adf3283ce8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/profiles.ejs" afterPath="$PROJECT_DIR$/views/pages/profiles.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/head.ejs" afterPath="$PROJECT_DIR$/views/partials/head.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profiles.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profiles.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/pages/profiles.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="96">
+              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -202,10 +202,10 @@
         <option value="$PROJECT_DIR$/static/robots.txt" />
         <option value="$PROJECT_DIR$/static/sitemap.xml" />
         <option value="$PROJECT_DIR$/views/pages/index.ejs" />
-        <option value="$PROJECT_DIR$/views/partials/head.ejs" />
         <option value="$PROJECT_DIR$/views/partials/scripts.ejs" />
         <option value="$PROJECT_DIR$/views/pages/profile.ejs" />
         <option value="$PROJECT_DIR$/views/pages/profiles.ejs" />
+        <option value="$PROJECT_DIR$/views/partials/head.ejs" />
       </list>
     </option>
   </component>
@@ -618,7 +618,7 @@
       <workItem from="1506429689665" duration="4833000" />
       <workItem from="1506438299952" duration="3000" />
       <workItem from="1506494084554" duration="812000" />
-      <workItem from="1506580867386" duration="574000" />
+      <workItem from="1506580867386" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="Add splashpage">
       <created>1505844354607</created>
@@ -697,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506581334144</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Microdata doubled organisation fix">
+      <created>1506581470880</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1506581470880</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93412000" />
+    <option name="totallyTimeSpent" value="93683000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +777,8 @@
     <MESSAGE value="Add domain in site map reference" />
     <MESSAGE value="Fix asset loading" />
     <MESSAGE value="Split network partial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split network partial" />
+    <MESSAGE value="Microdata doubled organisation fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microdata doubled organisation fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1018,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1054,6 +1054,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding />
         </state>
       </provider>
