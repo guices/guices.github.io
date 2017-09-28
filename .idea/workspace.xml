@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="524c2cac-73af-4540-927c-8f3e847ee1ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -101,12 +98,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506582346914</updated>
-      <workItem from="1506582349407" duration="102000" />
+      <workItem from="1506582349407" duration="160000" />
     </task>
+    <task id="LOCAL-00001" summary="JetBrains fix">
+      <created>1506582477659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506582477659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102000" />
+    <option name="totallyTimeSpent" value="160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="6" />
@@ -136,6 +141,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JetBrains fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="JetBrains fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
