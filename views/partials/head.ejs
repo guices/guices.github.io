@@ -28,9 +28,21 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=<%= pkg.version %>">
 
 <style type="text/css">
-    @screen {
+    @media screen {
         body {
-            background-color: #002833
+            background-color: #002833;
+        }
+
+        [data-selector="status"] {
+            opacity: 1;
+            -webkit-transition: opacity 1s;
+            transition: opacity 1s;
+        }
+
+        [data-status="loading"] {
+            opacity: 0;
+            -webkit-transition: opacity 1s;
+            transition: opacity 1s;
         }
     }
 </style>

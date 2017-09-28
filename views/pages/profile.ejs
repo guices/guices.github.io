@@ -8,7 +8,7 @@
     <meta name="description" content="<%= pkg.description %>">
 </head>
 
-<body class="page">
+<body class="page" data-selector="status" data-status="loading">
 <% include ../partials/masthead.ejs %>
 
 <main class="page__body page__body--centered">
@@ -42,19 +42,7 @@
                         <p>If you want to stay in touch or see any of my social activities, pick one of the listed
                             networks:</p>
 
-                        <ul class="networks">
-                            <% for ( network in content.profiles[profile].networks ) { %>
-                            <% if (content.profiles[profile].networks[network].icon) { %>
-                            <li class="networks__item"><a class="networks__link"
-                                                          title="<%= content.profiles[profile].networks[network].name %>"
-                                                          href="<%= content.profiles[profile].networks[network].link %>"
-                                                          target="_blank">
-                                    <i class="fa fa-lg <%= content.profiles[profile].networks[network].icon %>"
-                                       aria-hidden="true"></i>
-                                </a></li>
-                            <% } %>
-                            <% } %>
-                        </ul>
+                        <% include ../partials/networks.ejs %>
                         <p>The access to my portfolio and curriculum vitae is restricted. Please enter your email
                             address
                             and send me a request if you want to have access.</p>
