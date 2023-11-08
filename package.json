@@ -1,30 +1,36 @@
 {
-  "name": "Guices",
-  "version": "0.0.2",
+  "name": "guices",
+  "version": "0.0.3",
   "description": "A Portfolio of Software Development.",
-  "engines": {
-    "node": ">=6.0.0"
+  "private": true,
+  "author": {
+    "name": "Florian Gudat",
+    "url": "https://github.com/guddii/"
   },
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guices/guices.github.io"
+  },
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "compression": "^1.7.1",
-    "ejs": "2.5.6",
-    "express": "4.15.2"
+    "@fortawesome/free-solid-svg-icons": "6.4.2",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@fortawesome/free-brands-svg-icons": "6.4.2",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
-  },
-  "repository": "https://github.com/guddii/guices",
-  "keywords": [
-    "software",
-    "development",
-    "portfolio"
-  ],
-  "license": "MIT",
-  "author": "Florian Gudat <florian.gudat@guices.com>"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "typescript": "^5"
+  }
 }
